@@ -5,7 +5,7 @@
 const roblox = require('noblox.js')
 const Discord = require('discord.js')
 const client = new Discord.Client();
-var token = "NjYzNDc2MzU3MzgwMTc3OTIw.XiR6Zw.49PecnYdGITbgJwOHWYKzZ5lgjA";
+client.login(process.env.BOT_TOKEN)
  
 client.login(token)
  
